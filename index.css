@@ -1,9 +1,10 @@
 html, body {
     font-family: Arial, Verdana, sans-serif;
     font-size: 90%;
-    color: #58d1e0;
+    color: #ffffff;
     background-image: url("table2.jpeg");
-    background-color: gray;
+    background-color: rgb(226, 215, 215);
+    color: black;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
 }
 
 p {
-    color: #915858;
+    color: #222121;
     margin: 10px 30px 1px;
     font-size: 15px;
     font-style:oblique;
@@ -175,3 +176,21 @@ input[type="submit"]:hover {
     text-align: right;
     margin: 15px auto auto auto;
 }
+/* Scroll behavior for the contact link */
+.contact-link {
+    cursor: pointer;
+  }
+  
+  /* Scroll to the footer when the contact link is clicked */
+  .contact-link {
+    transition: color 0.3s ease; /* Optional: Add a smooth color transition effect */
+  }
+  
+  .contact-link:active {
+    color: #007bff; /* Set the color you want when the link is clicked */
+  }
+  
+  /* Smooth scrolling animation */
+  html {
+    scroll-behavior: smooth;
+  }
